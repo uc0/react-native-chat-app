@@ -1,4 +1,4 @@
-const color = {
+const colors = {
     white: '#ffffff',
     black: '#000000',
     grey_0: '#d5d5d5',
@@ -9,5 +9,6 @@ const color = {
 
 export const theme = {
     background: colors.white,
-    text: colors.black
+    text: colors.black,
+    imageBackground: colors.grey_0
 }
