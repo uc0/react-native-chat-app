@@ -21,7 +21,7 @@ const Image = ({ url, imageStyle }) => {
     )
 }
 
-Image.PropTypes = {
+Image.propTypes = {
     uri: PropTypes.string,
     imageStyle: PropTypes.object
 }

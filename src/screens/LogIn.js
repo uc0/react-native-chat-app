@@ -1,7 +1,8 @@
 import React from 'react'
 import styled from 'styled-components/native'
 import { Button } from 'react-native'
-import Image from '../components'
+import { Image } from '../components'
+import { images } from '../utils/images'
 
 const Container = styled.View`
     flex: 1;
@@ -12,7 +13,7 @@ const Container = styled.View`
 const LogIn = ({ navigation }) => {
     return (
         <Container>
-            <Image/>
+            <Image url={images.logo}/>
             <Button title="Sign Up" onPress={() => navigation.navigate('SignUp')} />
         </Container>
     )
